@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(135deg, #93c5fd, #c4b5fd);
+}
+
+input[type="time"] {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    width: 100%;
+}
+
+button {
+    font-weight: 600;
+}
+
+#status {
+    font-size: 0.9rem;
+}

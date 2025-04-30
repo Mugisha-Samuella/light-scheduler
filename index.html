@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graphical Light Scheduler</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gray-50">
+    <div class="bg-white p-10 rounded-lg shadow-md w-full max-w-md">
+      <h1 class="text-2xl font-bold text-center text-gray-900 mb-8">
+        Samuella's Graphical Light Scheduler
+      </h1>
+
+      <form class="space-y-6">
+        <div class="flex items-center">
+          <label
+            for="on-time"
+            class="w-28 text-right text-gray-800 font-medium text-lg mr-4"
+          >
+            On Time:
+          </label>
+          <input
+            type="time"
+            id="on-time"
+            name="on-time"
+            placeholder="HH:MM"
+            class="flex-1 border border-gray-300 rounded-md p-2 text-gray-800 placeholder-gray-400 text-lg"
+          />
+        </div>
+
+        <div class="flex items-center">
+          <label
+            for="off-time"
+            class="w-28 text-right text-gray-800 font-medium text-lg mr-4"
+          >
+            Off Time:
+          </label>
+          <input
+            type="time"
+            id="off-time"
+            name="off-time"
+            placeholder="HH:MM"
+            class="flex-1 border border-gray-300 rounded-md p-2 text-gray-800 placeholder-gray-400 text-lg"
+          />
+        </div>
+
+        <button
+          type="submit"
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold text-lg py-2 rounded-md transition"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
