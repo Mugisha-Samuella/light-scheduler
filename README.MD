@@ -2,12 +2,12 @@
 
 This project implements a **web-based light scheduling system** using **WebSocket** and **MQTT**, built as part of the Rwanda Coding Academy's _Embedded Systems Software Integration_ course.
 
-## ✨ Features
+## Features
 
-- 💡 Graphical light scheduler UI (Tailwind CSS)
-- 🔌 Arduino UNO + Relay integration for controlling light
-- 🌐 Real-time schedule updates via WebSocket
-- 📡 MQTT used to broadcast light scheduling events
+- Graphical light scheduler UI (Tailwind CSS)
+- Arduino UNO + Relay integration for controlling light
+- Real-time schedule updates via WebSocket
+- MQTT used to broadcast light scheduling events
 
 ---
 
@@ -25,7 +25,7 @@ This project implements a **web-based light scheduling system** using **WebSocke
 
 ![Subscriber Logs](screenshots/subscriberlogs.png)
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Arduino Hardware Setup
 
@@ -68,11 +68,11 @@ Make sure you have a **WebSocket server** running that:
 - Receives form submissions (`On Time` / `Off Time`)
 - Sends appropriate commands (`ON` / `OFF`) to the Arduino via **Serial** or **MQTT**
 
-> ⚙️ The frontend uses **Tailwind CSS** for modern styling and is fully mobile-responsive.
+> ⚙The frontend uses **Tailwind CSS** for modern styling and is fully mobile-responsive.
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. Users schedule light **ON/OFF** times via the web form.
 2. The schedule is sent to a **WebSocket server**.
@@ -81,11 +81,11 @@ Make sure you have a **WebSocket server** running that:
 
 ---
 
-## 📦 Technologies Used
+## Technologies Used
 
-- 🖥️ HTML + Tailwind CSS
-- 🌐 WebSocket
-- 📡 MQTT (e.g., Mosquitto)
-- 🔌 Arduino UNO + Relay
-- ⚙️ JavaScript *(optional for frontend logic)*
+- HTML + Tailwind CSS
+- WebSocket
+- MQTT (e.g., Mosquitto)
+- Arduino UNO + Relay
+- JavaScript *(optional for frontend logic)*
 ```
