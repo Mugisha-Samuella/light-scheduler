@@ -1,7 +1,6 @@
 ## IoT Light Scheduler
 
-This project implements a **web-based light scheduling system** using **WebSocket** and **MQTT**, built as part of the Rwanda Coding Academy's _Embedded Systems Software Integration_ course.
-
+This project implements a **web-based light scheduling system** using **WebSocket** and **MQTT**
 ## Features
 
 - Graphical light scheduler UI (Tailwind CSS)
